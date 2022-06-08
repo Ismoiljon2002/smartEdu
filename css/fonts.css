@@ -1,0 +1,31 @@
+/*  GOOGLE FONTS */
+/*  Roboto 500  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/*  Montserrat 500  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+/*  Ubuntu 400  */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@font-face {
+    font-family: 'MontBold';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'MontRegular';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+}

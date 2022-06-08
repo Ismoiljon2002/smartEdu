@@ -1,0 +1,69 @@
+@import 'fonts.css';
+
+//  COLORS
+
+$black: #1c1c1c;
+$blackish: #495057;
+$bg-grey: #f9f9f9;
+$yellow: #ffc000;
+$blue: #003ff9;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    scroll-behavior: smooth !important;
+    max-width: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background-color: $bg-grey;
+    color: $black;
+}
+
+.clr {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7 {
+    float: left;
+}
+
+@media only screen and(max-width: 767px) {
+
+    .col-sm-1,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-9,
+    .col-sm-10,
+    .col-sm-11,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7 {
+        float: none;
+    }
+}

@@ -1,0 +1,299 @@
+@import './base';
+
+.blue-btn {
+    color: #fff;
+    background-color: $blue;
+    border: 1px solid $blue;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: -10px 0 0;
+    border-radius: 10px;
+    transition: .3s ease;
+
+    &:hover {
+        color: $blue;
+        background-color: transparent;
+    }
+
+    &:focus {
+        color: $yellow;
+        border: 1px solid $yellow;
+    }
+}
+
+#nav {
+    background-color: #fff !important;
+    box-shadow: 0 10px 30px rgba($color: #fff, $alpha: .7);
+}
+
+#logo-pic {
+    width: 80px;
+    margin-right: 30px;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.nav-link {
+    font-size: 19px;
+    line-height: 23px;
+    color: $blue  !important;
+    padding: 15px 15px 0 !important;
+    transition: 0.3s ease;
+
+    &:hover {
+        color: $yellow  !important;
+    }
+}
+
+.nav-item.phone {
+    margin-left: 40%;
+}
+
+//  ==== Home ====
+.home {
+    h1 {
+        width: 70%;
+        font-size: 35px;
+        line-height: 50px;
+        padding: 150px 0 10px 30px;
+    }
+
+    p {
+        font-size: 20px;
+        padding: 0 30px;
+        width: 70%;
+    }
+
+    .home-btn {
+        margin: 10px 30px;
+    }
+}
+
+#home-pic {
+    width: 270px;
+    padding: 50px 0;
+}
+
+// === Courses ===
+.courses-section h2,
+.facilities h2,
+.team h2 {
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    padding: 80px 0 50px;
+}
+
+.courses>div {
+    padding: 20px 10px;
+}
+
+.courses-card {
+    padding: 20px 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba($color: $black, $alpha: .05);
+
+    h3 {
+        font-size: 24px;
+        font-weight: 600;
+        color: $black;
+    }
+
+    .col-sm-1>i {
+        color: $blue;
+        font-size: 24px;
+        margin: 5px 0;
+    }
+
+    .col-sm-11 {
+        color: $blackish;
+        font-size: 15px;
+        padding: 0 10px 0 20px;
+    }
+}
+
+.course-btn {
+    font-size: 20px;
+    padding: 15px 60px;
+    display: block;
+    margin: 20px auto;
+}
+
+// ====  Facilities  ====
+.facilities {
+    >div>p {
+        font-size: 20px;
+        color: $black;
+        text-align: center;
+        letter-spacing: .9px;
+        margin: -35px 0 35px;
+    }
+}
+
+.facility-card {
+    background-color: #fff !important;
+    border-radius: 20px;
+    height: 420px;
+    padding: 0 20px;
+    box-shadow: 7px 10px 8px -2px rgba(0, 0, 0, .11);
+
+    .col-md-4 {
+        padding: 40px 20px;
+    }
+
+    .col-sm-1>i {
+        font-size: 30px;
+        margin: 20px 0;
+        color: $yellow;
+    }
+
+    .col-sm-11>p {
+        color: $blackish;
+        font-size: 18px;
+        line-height: 25px;
+        padding: 15px 60px 15px 15px;
+        font-family: 'MontRegular', 'Montserrat', sans-serif;
+    }
+}
+
+
+// ===  Footer  ===
+.footer {
+    background-color: #fff;
+    height: 200px;
+    margin: 100px 0 0;
+    padding: 40px 0;
+
+    ul {
+        list-style-type: none;
+        width: 50%;
+        float: left;
+        padding: 25px 0;
+
+        li {
+            font-size: 18px;
+            color: $black;
+            font-weight: 600;
+            padding: 5px 10px;
+
+            a {
+                color: $black;
+                transition: .3s ease;
+
+                &:hover {
+                    color: $yellow;
+                    text-decoration: underline !important;
+                }
+            }
+        }
+    }
+}
+
+.logo-footer {
+    width: 130px;
+}
+
+.icons {
+    text-align: center;
+    padding: 35px 0;
+
+    i {
+        font-size: 30px;
+        margin: 0 10px;
+        padding: 10px;
+        border-radius: 50%;
+        color: $yellow;
+        transition: .3s ease;
+
+
+        &:hover {
+            color: #fff;
+            background-color: $blue;
+            text-shadow: 0 0 10px #fff;
+        }
+
+        &.fa-instagram {
+            padding: 10px 11.5px !important;
+        }
+
+        &.fa-phone {
+            font-size: 25px !important;
+            padding: 12px
+        }
+    }
+}
+
+// ===  Registration Part ===
+.register .col-md-6 {
+    padding: 20px;
+
+    img {
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 0 7px 30px rgba($color: $black, $alpha: 0.25);
+    }
+}
+
+.register-card {
+    padding: 40px 70px;
+    border-radius: 10px;
+    background-color: $yellow;
+    box-shadow: 0 7px 30px rgba($color: $black, $alpha: 0.25);
+
+    h3 {
+        text-align: center;
+        font-weight: 600;
+    }
+
+    input,
+    select {
+        width: 100%;
+        outline: none;
+        margin: 13px 0;
+        padding: 15px 25px;
+        color: $blackish;
+        font-size: 18px;
+        letter-spacing: .8px;
+        border-radius: 15px;
+        border: 1px solid #fff;
+        background-color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        transition: .3s ease;
+
+        &:hover {
+            border: 1px solid $blue;
+        }
+
+        &[type=submit] {
+            color: #fff;
+            font-weight: 700;
+            border: 1px solid $blue;
+            background-color: $blue;
+            margin: 30px 0 0;
+            cursor: pointer;
+
+            &:hover {
+                color: $blue;
+                background-color: #fff;
+            }
+        }
+    }
+
+    i.fa-info {
+        font-size: 12px;
+        border-radius: 50%;
+        border: 1px solid $black;
+        padding: 3px 7px;
+    }
+
+    p.muted {
+        opacity: .8;
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: .7px;
+        margin: 10px 0 0;
+    }
+}

@@ -1,0 +1,361 @@
+@import url(h:\Ismoil\Programming\Projects\Smart Edu Center\css\fonts.css);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth !important;
+  max-width: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  background-color: #f9f9f9;
+  color: #1c1c1c;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7 {
+  float: left;
+}
+
+@media only screen and (max-width: 767px) {
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7 {
+    float: none;
+  }
+}
+
+.blue-btn {
+  color: #fff;
+  background-color: #003ff9;
+  border: 1px solid #003ff9;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin: -10px 0 0;
+  border-radius: 10px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.blue-btn:hover {
+  color: #003ff9;
+  background-color: transparent;
+}
+
+.blue-btn:focus {
+  color: #ffc000;
+  border: 1px solid #ffc000;
+}
+
+#nav {
+  background-color: #fff !important;
+  -webkit-box-shadow: 0 10px 30px rgba(255, 255, 255, 0.7);
+          box-shadow: 0 10px 30px rgba(255, 255, 255, 0.7);
+}
+
+#logo-pic {
+  width: 80px;
+  margin-right: 30px;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 19px;
+  line-height: 23px;
+  color: #003ff9 !important;
+  padding: 15px 15px 0 !important;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffc000 !important;
+}
+
+.nav-item.phone {
+  margin-left: 40%;
+}
+
+.home h1 {
+  width: 70%;
+  font-size: 35px;
+  line-height: 50px;
+  padding: 150px 0 10px 30px;
+}
+
+.home p {
+  font-size: 20px;
+  padding: 0 30px;
+  width: 70%;
+}
+
+.home .home-btn {
+  margin: 10px 30px;
+}
+
+#home-pic {
+  width: 270px;
+  padding: 50px 0;
+}
+
+.courses-section h2,
+.facilities h2,
+.team h2 {
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center;
+  padding: 80px 0 50px;
+}
+
+.courses > div {
+  padding: 20px 10px;
+}
+
+.courses-card {
+  padding: 20px 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 10px 30px rgba(28, 28, 28, 0.05);
+          box-shadow: 0 10px 30px rgba(28, 28, 28, 0.05);
+}
+
+.courses-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1c1c1c;
+}
+
+.courses-card .col-sm-1 > i {
+  color: #003ff9;
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.courses-card .col-sm-11 {
+  color: #495057;
+  font-size: 15px;
+  padding: 0 10px 0 20px;
+}
+
+.course-btn {
+  font-size: 20px;
+  padding: 15px 60px;
+  display: block;
+  margin: 20px auto;
+}
+
+.facilities > div > p {
+  font-size: 20px;
+  color: #1c1c1c;
+  text-align: center;
+  letter-spacing: .9px;
+  margin: -35px 0 35px;
+}
+
+.facility-card {
+  background-color: #fff !important;
+  border-radius: 20px;
+  height: 420px;
+  padding: 0 20px;
+  -webkit-box-shadow: 7px 10px 8px -2px rgba(0, 0, 0, 0.11);
+          box-shadow: 7px 10px 8px -2px rgba(0, 0, 0, 0.11);
+}
+
+.facility-card .col-md-4 {
+  padding: 40px 20px;
+}
+
+.facility-card .col-sm-1 > i {
+  font-size: 30px;
+  margin: 20px 0;
+  color: #ffc000;
+}
+
+.facility-card .col-sm-11 > p {
+  color: #495057;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 15px 60px 15px 15px;
+  font-family: 'MontRegular', 'Montserrat', sans-serif;
+}
+
+.footer {
+  background-color: #fff;
+  height: 200px;
+  margin: 100px 0 0;
+  padding: 40px 0;
+}
+
+.footer ul {
+  list-style-type: none;
+  width: 50%;
+  float: left;
+  padding: 25px 0;
+}
+
+.footer ul li {
+  font-size: 18px;
+  color: #1c1c1c;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+
+.footer ul li a {
+  color: #1c1c1c;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.footer ul li a:hover {
+  color: #ffc000;
+  text-decoration: underline !important;
+}
+
+.logo-footer {
+  width: 130px;
+}
+
+.icons {
+  text-align: center;
+  padding: 35px 0;
+}
+
+.icons i {
+  font-size: 30px;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #ffc000;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.icons i:hover {
+  color: #fff;
+  background-color: #003ff9;
+  text-shadow: 0 0 10px #fff;
+}
+
+.icons i.fa-instagram {
+  padding: 10px 11.5px !important;
+}
+
+.icons i.fa-phone {
+  font-size: 25px !important;
+  padding: 12px;
+}
+
+.register .col-md-6 {
+  padding: 20px;
+}
+
+.register .col-md-6 img {
+  width: 100%;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 7px 30px rgba(28, 28, 28, 0.25);
+          box-shadow: 0 7px 30px rgba(28, 28, 28, 0.25);
+}
+
+.register-card {
+  padding: 40px 70px;
+  border-radius: 10px;
+  background-color: #ffc000;
+  -webkit-box-shadow: 0 7px 30px rgba(28, 28, 28, 0.25);
+          box-shadow: 0 7px 30px rgba(28, 28, 28, 0.25);
+}
+
+.register-card h3 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.register-card input,
+.register-card select {
+  width: 100%;
+  outline: none;
+  margin: 13px 0;
+  padding: 15px 25px;
+  color: #495057;
+  font-size: 18px;
+  letter-spacing: .8px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.register-card input:hover,
+.register-card select:hover {
+  border: 1px solid #003ff9;
+}
+
+.register-card input[type=submit],
+.register-card select[type=submit] {
+  color: #fff;
+  font-weight: 700;
+  border: 1px solid #003ff9;
+  background-color: #003ff9;
+  margin: 30px 0 0;
+  cursor: pointer;
+}
+
+.register-card input[type=submit]:hover,
+.register-card select[type=submit]:hover {
+  color: #003ff9;
+  background-color: #fff;
+}
+
+.register-card i.fa-info {
+  font-size: 12px;
+  border-radius: 50%;
+  border: 1px solid #1c1c1c;
+  padding: 3px 7px;
+}
+
+.register-card p.muted {
+  opacity: .8;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: .7px;
+  margin: 10px 0 0;
+}
+/*# sourceMappingURL=main.css.map */
